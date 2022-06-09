@@ -108,37 +108,3 @@ const styles = StyleSheet.create({ //what inside{} is a javascript object
     textAlignVertical: "center"
   }
 });
-
-  /*useEffect( () => {
-    fetch(hourData)
-      .then((response) => response.json())
-      .then((info) => setData(info))
-      .catch((error) => console.log(error))
-  }, [])
-  let day = libData[0].day
-  let date = libData[0].date
-  let location = libData[0]['location']
-  let currently_open = libData['times'][0]['currently_open'][0]
-  let hours = libData[0]['times'][0]['hours']
-  let status = libData[0]['times'][0]['status']
-  */
-
-  /*function renderDetail(item){
-    return(
-    <View>
-      <TouchableOpacity>
-          <Text style={styles.listitem}>{item.day}</Text>
-          <Text style={styles.details}>hide/show details</Text>
-      </TouchableOpacity>
-    </View>
-    )
-  }
-  
-  <FlatList
-      data={data}
-      keyExtractor={item => item.day}
-      renderItem={({ item }) => ( renderDetail(item) )}
-      />
-  */
-
-//<Button title="show details" onPress={item => item}/>
